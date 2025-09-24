@@ -1,0 +1,76 @@
+body {
+    background-image: url("./img/FormsImage.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+form {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+form input[type="date"] {
+    padding: 10px;
+}
+
+form button {
+    width: 150px;
+    margin: 0 auto; /* Para centralizar horizontalmente o botão */
+    display: block;
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: backgrond-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 35px;
+    color: #000000;
+}
+
+/* Acrescentando responsividade para telas menores */
+@media (max-width: 768px) {
+    form {
+        padding: 20px;
+        margin: 20px;
+    }
+
+    form input,
+    form textarea {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+}
