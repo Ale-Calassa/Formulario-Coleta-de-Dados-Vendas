@@ -20,7 +20,7 @@ function FormularioVenda() {
     const handleSubmit = async (e) => {
         e.preventDefault();
 
-        const response = await fetch("http://localhost:5000/dados", {
+        const response = await fetch("https://coleta-de-dados-lkdt.onrender.com", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify(formData)
