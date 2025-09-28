@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Formulario-Coleta-de-Dados-Vendas/static/css/main.28b9b89b.css",
-    "main.js": "/Formulario-Coleta-de-Dados-Vendas/static/js/main.6b9fe4f9.js",
+    "main.js": "/Formulario-Coleta-de-Dados-Vendas/static/js/main.79e27992.js",
     "static/media/FormsImage.png": "/Formulario-Coleta-de-Dados-Vendas/static/media/FormsImage.a3cb76971763fa6e8351.png",
     "index.html": "/Formulario-Coleta-de-Dados-Vendas/index.html",
     "main.28b9b89b.css.map": "/Formulario-Coleta-de-Dados-Vendas/static/css/main.28b9b89b.css.map",
-    "main.6b9fe4f9.js.map": "/Formulario-Coleta-de-Dados-Vendas/static/js/main.6b9fe4f9.js.map"
+    "main.79e27992.js.map": "/Formulario-Coleta-de-Dados-Vendas/static/js/main.79e27992.js.map"
   },
   "entrypoints": [
     "static/css/main.28b9b89b.css",
-    "static/js/main.6b9fe4f9.js"
+    "static/js/main.79e27992.js"
   ]
 }
