@@ -1,70 +1,67 @@
-# Getting Started with Create React App
+# Formulário de Registro de Vendas (Didático)
+Aplicação frontend desenvolvida em React com o objetivo de simular o registro de vendas realizadas por consumidores. O formulário coleta dados essenciais sobre o produto e o canal de venda, enviando essas informações para um backend em Python (Flask), que persiste os dados em um banco de dados MySQL para posterior análise.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+⚠️ Importante: Todos os dados registrados são fictícios e utilizados exclusivamente para fins didáticos e de aprendizado. ⚠️
 
-## Available Scripts
 
-In the project directory, you can run:
+## Funcionalidades
+Registro de vendas com os seguintes campos:
 
-### `npm start`
+Nome completo do consumidor
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Nome do produto
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Categoria do produto
 
-### `npm test`
+Valor unitário
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Quantidade
 
-### `npm run build`
+Canal da venda (ex: online, presencial)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Observações adicionais
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Envio dos dados via fetch para uma API Flask hospedada no Render
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Validação básica dos campos
 
-### `npm run eject`
+Interface simples e intuitiva
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Preparada para rodar localmente e ser hospedada no GitHub Pages
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Tecnologias Utilizadas
+React (Create React App)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+fetch API para comunicação com o backend
 
-## Learn More
+CSS para estilização (Futura atualização para Tailwind)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Flask no backend (não incluso neste repositório)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+MySQL como banco de dados relacional
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Como Rodar Localmente
+Clone o repositório:
 
-### Analyzing the Bundle Size
+bash
+git clone https://github.com/seu-usuario/seu-repositorio.git
+cd seu-repositorio
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Instale as dependências:
 
-### Making a Progressive Web App
+bash
+npm install
+Inicie o servidor de desenvolvimento:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+bash
+npm run dev
+Certifique-se de que o backend Flask está rodando e acessível na URL configurada no fetch.
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Deploy no GitHub Pages
+Para simular um ambiente real e desenvolver habilidades de deploy, a aplicação será hospedada no GitHub Pages. Para isso, você pode usar bibliotecas como gh-pages e configurar o package.json com o campo "homepage".
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Objetivo Didático 🎯
+Este projeto tem como finalidade o desenvolvimento de habilidades práticas em frontend React, integração com APIs REST, persistência de dados e deploy de aplicações web. Os dados simulados permitem testar funcionalidades reais sem comprometer informações sensíveis.
