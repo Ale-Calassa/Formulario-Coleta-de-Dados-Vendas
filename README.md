@@ -1,7 +1,8 @@
 # Formulário de Registro de Vendas (Didático)
 Aplicação frontend desenvolvida em React com o objetivo de simular o registro de vendas realizadas por consumidores. O formulário coleta dados essenciais sobre o produto e o canal de venda, enviando essas informações para um backend em Python (Flask), que persiste os dados em um banco de dados MySQL para posterior análise.
 
-⚠️ Importante: Todos os dados registrados são fictícios e utilizados exclusivamente para fins didáticos e de aprendizado. ⚠️
+### ⚠️ Importante: 
+Todos os dados registrados são fictícios e utilizados exclusivamente para fins didáticos e de aprendizado.
 
 
 ## Funcionalidades
